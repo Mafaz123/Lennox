@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Lennox Application Test Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.lennox.qa.ExtentReportListener.ExtentReportNG" />
+		<listener
+			class-name="com.lennox.qa.AllureReportListener.TestAllureListener" />
+		<listener class-name="com.lennox.qa.Analyzer.MyTransformer" />
+	</listeners>
+
+
+	<test name="Lennox App Test Cases">
+		<classes>
+			<class name="com.lennox.qa.testcases.SalesTools.BuildAProposalTest"></class>
+			
+		</classes>
+	</test>
+</suite>

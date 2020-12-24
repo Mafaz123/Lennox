@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-24T14:11:19 EST" name="Lennox Application Test Automation Test Suite" finished-at="2020-12-24T14:12:25 EST" duration-ms="65277">
+    <groups>
+    </groups>
+    <test started-at="2020-12-24T14:11:19 EST" name="Lennox App Test Cases" finished-at="2020-12-24T14:12:25 EST" duration-ms="65277">
+      <class name="com.lennox.qa.testcases.SalesTools.BuildAProposalTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lennox.qa.testcases.SalesTools.BuildAProposalTest@61a1ea2c]" started-at="2020-12-24T14:11:20 EST" name="setUp" finished-at="2020-12-24T14:11:35 EST" duration-ms="15013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="touchesWorkflowTest()[pri:0, instance:com.lennox.qa.testcases.SalesTools.BuildAProposalTest@61a1ea2c]" started-at="2020-12-24T14:11:35 EST" name="touchesWorkflowTest" description="&lt; Create a New Lead!" finished-at="2020-12-24T14:12:23 EST" duration-ms="48711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- touchesWorkflowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lennox.qa.testcases.SalesTools.BuildAProposalTest@61a1ea2c]" started-at="2020-12-24T14:12:23 EST" name="tearDown" finished-at="2020-12-24T14:12:25 EST" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lennox.qa.testcases.SalesTools.BuildAProposalTest -->
+    </test> <!-- Lennox App Test Cases -->
+  </suite> <!-- Lennox Application Test Automation Test Suite -->
+</testng-results>
